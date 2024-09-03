@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  background-color: #004d3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #004d3a;
+  /* Dark green background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Clean and modern sans-serif font */
+  color: #fff;
+  /* White text color for readability */
+}
+
+code {
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  /* Modern monospace font for code */
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Slightly transparent black background */
+  padding: 2px 4px;
+  /* Padding around the code */
+  border-radius: 4px;
+  /* Rounded corners */
+  color: #e6e6e6;
+  /* Light gray text for code */
+}
+
+/* Global box-sizing for consistency */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

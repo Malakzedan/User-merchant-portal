@@ -1,0 +1,39 @@
+.sidebar {
+    width: 250px;
+    background: rgba(4, 62, 47, 1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 5px;
+    /* transition: background-color 0.3s ease; */
+}
+
+.navLink:hover {
+    background-color: #ffffff20;
+}
+
+.navLinkIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.iconContent {
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+}

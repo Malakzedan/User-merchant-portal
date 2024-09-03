@@ -1,0 +1,139 @@
+.main_container {
+    padding: 20px;
+    background-color: #f8fafa;
+    min-height: 100vh;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1b4332;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.create_btn {
+    padding: 10px 20px;
+    background-color: #ac8747;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.table_container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.user_count {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.delete_btn {
+    background-color: transparent;
+    border: none;
+    color: #c0392b;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete_btn:hover {
+    color: #e74c3c;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 600px;
+    height: fit-content;
+    background-color: #FFF;
+    padding: 24px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.form_content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.exit_btn {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    right: 0;
+    top: 0;
+}
+
+.close_btn {
+    background-color: transparent;
+    border: none;
+    font-size: 36px;
+    font-weight: bold;
+    color: #6c757d;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+
+.close_btn:hover {
+    color: #c0392b;
+}
